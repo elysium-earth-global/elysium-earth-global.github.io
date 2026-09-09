@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Elysium Earth Global</title>
+<meta name="description" content="Get in touch with Elysium Earth Global. Contact us about donating, partnering, or our work with children and education in Uganda and Kenya.">
+<link rel="icon" type="image/png" href="favicon-512.png">
+<link rel="apple-touch-icon" href="favicon-180.png">
+<meta property="og:title" content="Contact — Elysium Earth Global">
+<meta property="og:description" content="Get in touch with Elysium Earth Global.">
+<meta property="og:image" content="https://elysiumearthglobal.com/elysium-seal.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="mark" src="favicon-512.png" alt="" width="36" height="36" style="border-radius:8px">
+      <span>Elysium Earth Global</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="what-we-do.html">What we do</a>
+      <a href="transparency.html">Transparency</a>
+      <a href="news.html">News</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a class="btn btn-donate" href="donate.html">Donate</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="section-tight" style="background:var(--paper-2)">
+    <div class="wrap">
+      <p class="eyebrow">Contact</p>
+      <h1>We'd like to hear from you.</h1>
+      <p class="lead" style="font-family:var(--serif);color:var(--teal-deep);font-size:1.4rem;max-width:50ch">Whether you want to give, partner with us, or just understand our work better — reach out.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap grid grid-2">
+      <div>
+        <h2>Get in touch</h2>
+        <p>Email is the best way to reach us, and we read everything that comes in.</p>
+        <dl class="kv" style="margin-bottom:1.5rem">
+          <dt>Email</dt><dd><a href="mailto:info@elysiumearthglobal.com">info@elysiumearthglobal.com</a></dd>
+          <dt>Location</dt><dd>Oslo, Norway</dd>
+        </dl>
+        <h3 style="color:var(--teal-deep)">Are you a community organization?</h3>
+        <p>If you run or know a trusted, community-led project working with children in Uganda or Kenya, we'd like to learn about your work and how we might support it.</p>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">Organization details</p>
+        <dl class="kv">
+          <dt>Name</dt><dd>Elysium Earth Global</dd>
+          <dt>Legal form</dt><dd>Non-profit foundation (forening)</dd>
+          <dt>Org.nr</dt><dd>937 760 140</dd>
+          <dt>Country</dt><dd>Norway</dd>
+        </dl>
+        <p style="margin:1.2rem 0 0"><a class="btn btn-primary" href="donate.html">Donate</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="brand" href="index.html" style="color:#eae3d4">
+          <img src="favicon-512.png" alt="" width="34" height="34" style="border-radius:8px">
+          <span>Elysium Earth Global</span>
+        </a>
+        <p style="margin-top:1rem;color:#9fb0ad;max-width:34ch">A Norwegian non-profit foundation (forening) bringing transparency to charitable giving.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="what-we-do.html">What we do</a></li>
+          <li><a href="transparency.html">Transparency</a></li>
+          <li><a href="news.html">News</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <ul>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="mailto:info@elysiumearthglobal.com">info@elysiumearthglobal.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">
+      Elysium Earth Global · Org.nr 937 760 140 · Oslo, Norway · © <span id="yr"></span> Elysium Earth Global
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', function(){
+    var nav = document.getElementById('nav');
+    var open = nav.classList.toggle('open');
+    this.setAttribute('aria-expanded', open);
+  });
+  document.getElementById('yr').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
