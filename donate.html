@@ -51,22 +51,9 @@
         <h2>Make a donation</h2>
         <p>Choose a one-time or recurring gift. Contributions are received by Elysium Earth Global, our registered Norwegian non-profit, and directed to vetted community projects.</p>
 
-        <div class="donate-slot">
-          <!--
-            ▼▼▼  AMBRA — PASTE YOUR DONORBOX (or Stripe) EMBED HERE  ▼▼▼
-            1. Create the campaign in Donorbox (linked to your Stripe account for Elysium Earth Global).
-            2. Copy the "Embed" iframe code Donorbox gives you.
-            3. Replace EVERYTHING between these comment markers with that iframe.
-            Ad Grants requires a working donation flow on this page, so this must be live before you resubmit.
-          -->
-          <p style="font-family:var(--serif);font-size:1.3rem;color:var(--teal-deep);margin-bottom:.4rem">Secure online giving</p>
-          <p style="max-width:46ch;margin-left:auto;margin-right:auto">Our secure card donation form is being connected. In the meantime, to give today, email us at <a href="mailto:info@elysiumearthglobal.com">info@elysiumearthglobal.com</a> and we'll help you directly.</p>
-          <div class="donate-methods">
-            <span class="pill">Card</span>
-            <span class="pill">Recurring &amp; one-time</span>
-            <span class="pill">Vipps (Norway)</span>
-          </div>
-          <!--  ▲▲▲  END OF EMBED SLOT  ▲▲▲  -->
+        <div style="max-width:540px">
+          <script type="module" src="https://donorbox.org/widgets.js" async></script>
+          <dbox-widget campaign="support-elysium-earth-global" type="donation_form" enable-auto-scroll="true"></dbox-widget>
         </div>
       </div>
 
