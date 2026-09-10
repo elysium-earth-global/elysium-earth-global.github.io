@@ -15,7 +15,7 @@
   --white:      #ffffff;
 
   --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --serif: "Newsreader", Georgia, "Times New Roman", serif;
+  --serif: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, "Times New Roman", serif;
 
   --wrap: 1080px;
   --gap: clamp(1rem, 4vw, 2.5rem);
